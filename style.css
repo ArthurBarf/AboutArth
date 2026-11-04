@@ -1,0 +1,73 @@
+html,
+body,
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+body {
+	background-color: #f2e9e4;
+}
+/* header {
+
+	 
+} */
+
+.start-title {
+  color: #22223b;
+  font-size: 50px;
+   text-align: center;
+}
+
+.start-subheader {
+  color: #4a4e69;
+  font-size: 24px;
+   text-align: center;
+}
+
+.one{
+   text-align: center;
+}
+
+.lineOne-descr {
+  margin-top: 1rem;
+  color: #090914;
+  font-size: 16px;
+}
+
+.lineTwo-descr {
+  color: #090914;
+  font-size: 16px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.lineTwo-link {
+  color: #0c09bd;
+  font-size: 16px;
+}
+
+
+section.one {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  max-width: 1000px;
+  margin: 1rem auto;
+  gap: 3rem;
+}
+
+section.two{
+margin-top: 3rem;
+text-align: center;
+}
+
+video.imSOinLOVEwithYOUyoureSOinLOVEwithME {
+	display: block;
+	margin: 10rem auto;
+	width: 480px; 
+	height: 522px; 
+}

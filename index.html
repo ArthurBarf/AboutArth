@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Me - Arthur</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="start">
+            <h1 class="start-title">About Me:
+            </h1>
+            <h3 class="start-subheader">By Arthur T.
+            </h3>
+        </div> 
+    </header>  
+     
+    <section class="one">
+        
+         <div class="lineOne">
+        <p class="lineOne-descr">Wsp, I'm a student in Ap Comp Sci.</p>
+        <p class="lineTwo-descr">I started playing Deadlock recently(I suck).</p>
+        <p class="lineTwo-descr"> I enjoy Bad Apple flavored Monster.</p>
+        <p class="lineTwo-descr">Also, I procastinate every single day.</p>
+        </div>
+
+        <div class="one">
+        <p class="lineOne-descr"><b>Websites I'm on when I'm slacking:</b>
+        <ul>
+        <li><a class="lineTwo-link" href="https://www.chess.com/play" target="_blank">Chess</a></li>
+        <li><a class="lineTwo-link" href="https://www.nytimes.com/games/wordle/index.html" target="_blank">Wordle</a></li>
+        <li><a class="lineTwo-link" href="https://www.nytimes.com/games/connections?eafs_enabled=false" target="_blank">Connections</a></li>
+        </ul>
+        </p>
+        </div>
+
+        <div class="addictions">
+        <p class="lineOne-descr"><b><u>My top addictions (kid friendly):</u></b></p>
+        <ol>
+        <li><p class="lineTwo-descr">Monster Energy</p></li>
+        <li><p class="lineTwo-descr">Loot Crates</p></li>
+        <li><p class="lineTwo-descr">Doom Scrolling</p></li>
+        </ol> 
+        </div>
+
+    </section>
+
+    <section class="two">
+    <button class="monkey", onclick="findOutYourAMon()">
+        If you click me like 100 times, something will 
+    </button>
+    
+    
+    <p class="lineThree">
+       100
+    </p>
+        
+    </section>
+
+    <video controls class="imSOinLOVEwithYOUyoureSOinLOVEwithME" autoplay loop playsinline>
+        <source src="imSOinLOVEwithYOUyoureSOinLOVEwithME.mp4" type="video/mp4">
+    </video>
+
+
+
+    <script>
+        let num = 100;
+        function findOutYourAMon() {
+            num = num - 1;
+            document.querySelector(".lineThree").textContent = num; }
+    </script>
+
+</body>
+</html>
